@@ -15,8 +15,12 @@ import org.apache.logging.log4j.Logger;
 public class MentalBlocks
 {
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "mentalblocks";
+    public static MentalBlocks instance;
 
     public MentalBlocks() {
+        instance = this;
+
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
