@@ -1,4 +1,4 @@
--------------------------------------------
+-------------------------------------------https://github.com/simplebunsen/MentalBlocks/blob/master/README.txt
 Source installation information for modders
 -------------------------------------------
 This code follows the Minecraft Forge installation methodology. It will apply
