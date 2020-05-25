@@ -1,5 +1,7 @@
 package simplebunsen.mentalblocks;
 
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -9,6 +11,7 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import simplebunsen.mentalblocks.init.ItemInit;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("mentalblocks")
@@ -41,5 +44,19 @@ public class MentalBlocks
     public void onServerStarting(FMLServerStartingEvent event)
     {
 
+    }
+
+    public static class MentalBlocksItemGroup extends ItemGroup {
+        public static final MentalBlocksItemGroup instance =
+                new MentalBlocksItemGroup(ItemGroup.GROUPS.length, MOD_ID);
+
+        private MentalBlocksItemGroup(int index, String label) {
+            super(index, label);
+        }
+
+        @Override
+        public ItemStack createIcon(){
+            return new ItemStack(ItemInit.paintbrush);
+        }
     }
 }
