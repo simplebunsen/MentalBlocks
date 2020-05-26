@@ -16,10 +16,10 @@ import simplebunsen.mentalblocks.MentalBlocks.MentalBlocksItemGroup;
 
 @Mod.EventBusSubscriber(modid = MentalBlocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 @ObjectHolder(MentalBlocks.MOD_ID)
-public class BlockInit {
+public class TemplateBlockInit {
     public static final Block template_block = null;
 
-    @SubscribeEvent
+    @SubscribeEvent     //method name irrelevant, only single parameter type important!
     public static void registerBlocks(final RegistryEvent.Register<Block> event) {
         event.getRegistry().register(new Block(Block.Properties.create(Material.ROCK)
                 .hardnessAndResistance(2f, 6f)

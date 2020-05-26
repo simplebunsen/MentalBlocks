@@ -1,5 +1,7 @@
 {
   "item.mentalblocks.paintbrush": "Paintbrush (Test Item)",
   "block.mentalblocks.template_block": "Template Block (Test Item)",
+  "block.mentalblocks.alabaster_brick": "Alabaster Brick",
+  "block.mentalblocks.alabaster_carved": "Carved Alabaster",
   "itemGroup.mentalblocks": "Mental Blocks!"
 }
