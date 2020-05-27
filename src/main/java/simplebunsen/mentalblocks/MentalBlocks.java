@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import simplebunsen.mentalblocks.init.ItemInit;
+import simplebunsen.mentalblocks.init.PaintbrushLegacy;
 
 
 @Mod(MentalBlocks.MOD_ID)
@@ -62,7 +62,7 @@ public class MentalBlocks
 
         @Override
         public ItemStack createIcon(){
-            return new ItemStack(ItemInit.paintbrush);
+            return new ItemStack(PaintbrushLegacy.paintbrush);
         }
     }
 }

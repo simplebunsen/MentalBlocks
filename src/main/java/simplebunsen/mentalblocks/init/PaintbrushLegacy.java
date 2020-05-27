@@ -10,7 +10,7 @@ import simplebunsen.mentalblocks.MentalBlocks.MentalBlocksItemGroup;
 
 @Mod.EventBusSubscriber(modid = MentalBlocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 @ObjectHolder(MentalBlocks.MOD_ID)
-public class ItemInit {
+public class PaintbrushLegacy {
     public static final Item paintbrush = null;
 
     @SubscribeEvent

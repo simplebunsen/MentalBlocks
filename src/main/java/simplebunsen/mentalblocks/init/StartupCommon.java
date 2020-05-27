@@ -19,6 +19,10 @@ public class StartupCommon {
     public static AlabasterColumn alabasterColumn;
     public static BlockItem itemAlabasterColumn;
 
+    public static AlabasterPlain alabasterPlain;
+    public static BlockItem itemAlabasterPlain;
+    
+    
     @SubscribeEvent
     public static void onBlocksRegistration(final RegistryEvent.Register<Block> blockRegisterEvent) {
         //Alabaster Brick
@@ -32,6 +36,12 @@ public class StartupCommon {
         //Column Alabaster
         alabasterColumn = (AlabasterColumn) new AlabasterColumn().setRegistryName(MOD_ID, "alabaster_column");
         blockRegisterEvent.getRegistry().register(alabasterColumn);
+        //...
+
+        //Plain Alabaster
+        alabasterPlain = (AlabasterPlain) new AlabasterPlain().setRegistryName(MOD_ID, "alabaster_plain");
+        blockRegisterEvent.getRegistry().register(alabasterPlain);
+
         //...
     }
 
@@ -56,6 +66,11 @@ public class StartupCommon {
         itemAlabasterColumn = new BlockItem(alabasterColumn, simpleBlockItemProperties);
         itemAlabasterColumn.setRegistryName(alabasterColumn.getRegistryName());
         itemRegisterEvent.getRegistry().register(itemAlabasterColumn);
+
+        //Plain Alabaster
+        itemAlabasterPlain = new BlockItem(alabasterPlain, simpleBlockItemProperties);
+        itemAlabasterPlain.setRegistryName(alabasterPlain.getRegistryName());
+        itemRegisterEvent.getRegistry().register(itemAlabasterPlain);
     }
 
 
