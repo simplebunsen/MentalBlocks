@@ -13,5 +13,6 @@ public class StartupClientOnly {
         RenderTypeLookup.setRenderLayer(StartupCommon.alabasterCarved, RenderType.getSolid());
         RenderTypeLookup.setRenderLayer(StartupCommon.alabasterColumn, RenderType.getSolid());
         RenderTypeLookup.setRenderLayer(StartupCommon.alabasterPlain, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(StartupCommon.asphaltPlain, RenderType.getSolid());
     }
 }

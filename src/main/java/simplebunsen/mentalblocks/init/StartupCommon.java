@@ -21,6 +21,9 @@ public class StartupCommon {
 
     public static AlabasterPlain alabasterPlain;
     public static BlockItem itemAlabasterPlain;
+
+    public static AsphaltPlain asphaltPlain;
+    public static BlockItem itemAsphaltPlain;
     
     
     @SubscribeEvent
@@ -41,6 +44,11 @@ public class StartupCommon {
         //Plain Alabaster
         alabasterPlain = (AlabasterPlain) new AlabasterPlain().setRegistryName(MOD_ID, "alabaster_plain");
         blockRegisterEvent.getRegistry().register(alabasterPlain);
+        
+        //Plain Asphalt
+        asphaltPlain = (AsphaltPlain) new AsphaltPlain().setRegistryName(MOD_ID, "asphalt_plain");
+        blockRegisterEvent.getRegistry().register(asphaltPlain);
+
 
         //...
     }
@@ -71,6 +79,11 @@ public class StartupCommon {
         itemAlabasterPlain = new BlockItem(alabasterPlain, simpleBlockItemProperties);
         itemAlabasterPlain.setRegistryName(alabasterPlain.getRegistryName());
         itemRegisterEvent.getRegistry().register(itemAlabasterPlain);
+
+        //Plain Asphalt
+        itemAsphaltPlain = new BlockItem(asphaltPlain, simpleBlockItemProperties);
+        itemAsphaltPlain.setRegistryName(asphaltPlain.getRegistryName());
+        itemRegisterEvent.getRegistry().register(itemAsphaltPlain);
     }
 
 
