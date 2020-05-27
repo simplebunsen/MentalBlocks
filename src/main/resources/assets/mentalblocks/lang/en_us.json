@@ -3,5 +3,6 @@
   "block.mentalblocks.template_block": "Template Block (Test Item)",
   "block.mentalblocks.alabaster_brick": "Alabaster Brick",
   "block.mentalblocks.alabaster_carved": "Carved Alabaster",
+  "block.mentalblocks.alabaster_column": "Alabaster Column",
   "itemGroup.mentalblocks": "Mental Blocks!"
 }

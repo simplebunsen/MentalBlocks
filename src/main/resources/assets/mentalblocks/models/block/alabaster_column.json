@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mentalblocks:blocks/alabaster_carved",
+        "side": "mentalblocks:blocks/alabaster_column"
+    }
+}

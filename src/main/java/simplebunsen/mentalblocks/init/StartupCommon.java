@@ -16,6 +16,9 @@ public class StartupCommon {
     public static AlabasterCarved alabasterCarved;
     public static BlockItem itemAlabasterCarved;
 
+    public static AlabasterColumn alabasterColumn;
+    public static BlockItem itemAlabasterColumn;
+
     @SubscribeEvent
     public static void onBlocksRegistration(final RegistryEvent.Register<Block> blockRegisterEvent) {
         //Alabaster Brick
@@ -26,6 +29,9 @@ public class StartupCommon {
         alabasterCarved = (AlabasterCarved) new AlabasterCarved().setRegistryName(MOD_ID, "alabaster_carved");
         blockRegisterEvent.getRegistry().register(alabasterCarved);
 
+        //Column Alabaster
+        alabasterColumn = (AlabasterColumn) new AlabasterColumn().setRegistryName(MOD_ID, "alabaster_column");
+        blockRegisterEvent.getRegistry().register(alabasterColumn);
         //...
     }
 
@@ -45,6 +51,11 @@ public class StartupCommon {
         itemAlabasterCarved = new BlockItem(alabasterCarved, simpleBlockItemProperties);
         itemAlabasterCarved.setRegistryName(alabasterCarved.getRegistryName());
         itemRegisterEvent.getRegistry().register(itemAlabasterCarved);
+
+        //Column Alabaster
+        itemAlabasterColumn = new BlockItem(alabasterColumn, simpleBlockItemProperties);
+        itemAlabasterColumn.setRegistryName(alabasterColumn.getRegistryName());
+        itemRegisterEvent.getRegistry().register(itemAlabasterColumn);
     }
 
 
