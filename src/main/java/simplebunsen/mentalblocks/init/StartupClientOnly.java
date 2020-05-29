@@ -21,6 +21,27 @@ public class StartupClientOnly {
         RenderTypeLookup.setRenderLayer(ConcretePavement.instance, RenderType.getSolid());
         RenderTypeLookup.setRenderLayer(ConcretePaver.instance, RenderType.getSolid());
 
+        RenderTypeLookup.setRenderLayer(CopperPlating.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(CucumberBlock.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(EggplantBlock.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(MudBrick.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(MudBrickSturdy.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(PlankPlywood.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(SandObsidian.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(Slade.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(SladeBrick.instance, RenderType.getSolid());
+
+        RenderTypeLookup.setRenderLayer(SladeCarved.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(SladeColumn.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(SpongeBloody.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(StoneCarvedColumn.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(StoneCarvedSnaking.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(StoneTilesSmall.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(StoneTilesSmallMossy.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(TerracottaTileLarge.instance, RenderType.getSolid());
+        RenderTypeLookup.setRenderLayer(TerracottaTileLight.instance, RenderType.getSolid());
+
+
 
 
     }

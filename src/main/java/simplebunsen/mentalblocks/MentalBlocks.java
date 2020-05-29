@@ -20,7 +20,7 @@ public class MentalBlocks
     public static IEventBus MOD_EVENT_BUS;
     public static MentalBlocks instance;
 
-//    //TODO: Make this toggleable by config. Logic should be there already.
+//    //TODO: Make this toggleable by config.
 //    public static boolean putBlocksInSeperateTab = true;
 //    public static ItemGroup desiredBlockTab = ItemGroup.BUILDING_BLOCKS;
 

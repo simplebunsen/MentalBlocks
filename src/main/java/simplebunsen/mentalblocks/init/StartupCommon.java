@@ -11,9 +11,6 @@ import static simplebunsen.mentalblocks.MentalBlocks.MentalBlocksItemGroup;
 
 public class StartupCommon {
 
-//    public static AlabasterBrick alabasterBrick;
-//    public static BlockItem itemAlabasterBrick;
-
     public static AlabasterCarved alabasterCarved;
     public static BlockItem itemAlabasterCarved;
 
@@ -74,12 +71,85 @@ public class StartupCommon {
         new ConcretePaver();
         blockRegisterEvent.getRegistry().register(ConcretePaver.instance);
 
+        //Copper Plating
+        new CopperPlating();
+        blockRegisterEvent.getRegistry().register(CopperPlating.instance);
+
+        //Cucumber
+        new CucumberBlock();
+        blockRegisterEvent.getRegistry().register(CucumberBlock.instance);
+
+        //Eggplant
+        new EggplantBlock();
+        blockRegisterEvent.getRegistry().register(EggplantBlock.instance);
+
+        //Mud Brick
+        new MudBrick();
+        blockRegisterEvent.getRegistry().register(MudBrick.instance);
+
+        //Sturdy Mud Brick
+        new MudBrickSturdy();
+        blockRegisterEvent.getRegistry().register(MudBrickSturdy.instance);
+
+        //Plywood Plank
+        new PlankPlywood();
+        blockRegisterEvent.getRegistry().register(PlankPlywood.instance);
+
+        //Sand Obsidian
+        new SandObsidian();
+        blockRegisterEvent.getRegistry().register(SandObsidian.instance);
+
+        //Slade
+        new Slade();
+        blockRegisterEvent.getRegistry().register(Slade.instance);
+
+        //Slade Brick
+        new SladeBrick();
+        blockRegisterEvent.getRegistry().register(SladeBrick.instance);
+
+        //Slade Carved
+        new SladeCarved();
+        blockRegisterEvent.getRegistry().register(SladeCarved.instance);
+
+        //Slade Column
+        new SladeColumn();
+        blockRegisterEvent.getRegistry().register(SladeColumn.instance);
+
+        //Sponge Bloody
+        new SpongeBloody();
+        blockRegisterEvent.getRegistry().register(SpongeBloody.instance);
+
+        //Stone Carved Column
+        new StoneCarvedColumn();
+        blockRegisterEvent.getRegistry().register(StoneCarvedColumn.instance);
+
+        //Stone Carved Snaking
+        new StoneCarvedSnaking();
+        blockRegisterEvent.getRegistry().register(StoneCarvedSnaking.instance);
+
+        //Stone Tiles Small
+        new StoneTilesSmall();
+        blockRegisterEvent.getRegistry().register(StoneTilesSmall.instance);
+
+        //Stone Tiles Small Mossy
+        new StoneTilesSmallMossy();
+        blockRegisterEvent.getRegistry().register(StoneTilesSmallMossy.instance);
+
+        //Terracotta Tile Large
+        new TerracottaTileLarge();
+        blockRegisterEvent.getRegistry().register(TerracottaTileLarge.instance);
+
+        //Terracotta Tile Light
+        new TerracottaTileLight();
+        blockRegisterEvent.getRegistry().register(TerracottaTileLight.instance);
+
         //...
     }
 
     @SubscribeEvent
     public static void onItemsRegistration(final RegistryEvent.Register<Item> itemRegisterEvent) {
         //TODO: remove
+        //TODO: maybe put iteminstances in array of blockitems to loop over below
         final int MAX_STACK_SIZE_BLOCKS = 64;
         final Item.Properties simpleBlockItemProperties = new Item.Properties().maxStackSize(MAX_STACK_SIZE_BLOCKS)
                 .group(MentalBlocksItemGroup.instance);
@@ -124,6 +194,61 @@ public class StartupCommon {
 
         //Concrete Paver
         itemRegisterEvent.getRegistry().register(ConcretePaver.itemInstance);
+//TODO:
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(CopperPlating.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(CucumberBlock.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(EggplantBlock.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(MudBrick.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(MudBrickSturdy.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(PlankPlywood.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(SandObsidian.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(Slade.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(SladeBrick.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(SladeCarved.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(SladeColumn.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(SpongeBloody.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(StoneCarvedColumn.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(StoneCarvedSnaking.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(StoneTilesSmall.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(StoneTilesSmallMossy.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(TerracottaTileLarge.itemInstance);
+
+        //Concrete Paver
+        itemRegisterEvent.getRegistry().register(TerracottaTileLight.itemInstance);
+
     }
 
 
