@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mentalblocks:blocks/slade",
+        "side": "mentalblocks:blocks/slade_column"
+    }
+}

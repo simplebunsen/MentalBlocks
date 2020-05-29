@@ -1,12 +1,12 @@
 package simplebunsen.mentalblocks.init;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.RotatedPillarBlock;
 import net.minecraft.item.BlockItem;
 
 import static simplebunsen.mentalblocks.MentalBlocks.MOD_ID;
 
-public class StoneCarvedColumn extends Block {
+public class StoneCarvedColumn extends RotatedPillarBlock {
 
     public static final String REGISTRY_NAME = "stone_carved_column";
 

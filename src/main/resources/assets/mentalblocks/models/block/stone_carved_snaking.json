@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "mentalblocks:blocks/stone_carved_snaking"
+    }
+}

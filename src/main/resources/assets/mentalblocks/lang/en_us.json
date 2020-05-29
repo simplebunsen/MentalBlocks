@@ -1,13 +1,35 @@
 {
   "item.mentalblocks.paintbrush": "Paintbrush (Test Item)",
-  "block.mentalblocks.template_block": "Template Block (Test Item)",
+
   "block.mentalblocks.alabaster_brick": "Alabaster Brick",
   "block.mentalblocks.alabaster_carved": "Carved Alabaster",
   "block.mentalblocks.alabaster_column": "Alabaster Column",
   "block.mentalblocks.alabaster_plain": "Plain Alabaster",
-
   "block.mentalblocks.asphalt_plain": "Plain Asphalt",
-
   "block.mentalblocks.adobe_brick": "Adobe Bricks",
+  "block.mentalblocks.cloth_dry": "Dry Cloth",
+  "block.mentalblocks.cloth_wet": "Wet Cloth",
+  "block.mentalblocks.concrete_pavement": "Concrete Pavement",
+  "block.mentalblocks.concrete_paver": "Concrete Paver",
+  "block.mentalblocks.cloth_bound": "Bound Cloth",
+  "block.mentalblocks.eggplant_block": "Eggplant",
+  "block.mentalblocks.mud_brick": "Mud Bricks",
+  "block.mentalblocks.mud_brick_sturdy": "Sturdy Mud Bricks",
+  "block.mentalblocks.plank_plywood": "Plywood Planks",
+  "block.mentalblocks.sand_obsidian": "Volcanic Sand",
+  "block.mentalblocks.slade": "Slade",
+  "block.mentalblocks.slade_brick": "Slade Bricks",
+  "block.mentalblocks.slade_carved": "Carved Slade Block",
+  "block.mentalblocks.slade_column": "Slade Column",
+  "block.mentalblocks.sponge_bloody": "Bloody Sponge",
+  "block.mentalblocks.stone_carved_column": "Carved Stone Pillar",
+  "block.mentalblocks.stone_carved_snaking": "Snaking Carved Stone",
+  "block.mentalblocks.stone_tiles_small": "Small Stone Tiles",
+  "block.mentalblocks.stone_tiles_small_mossy": "Mossy Small Stone Tiles",
+  "block.mentalblocks.terracotta_tile_large": "Large Terracotta Tile",
+  "block.mentalblocks.terracotta_tile_light": "Small Terracotta Tiles",
+  "block.mentalblocks.copper_plating": "Copper Plating",
+  "block.mentalblocks.cucumber_block": "Cucumber",
+
   "itemGroup.mentalblocks": "Mental Blocks!"
 }

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":   { "model": "mentalblocks:block/slade_column" },
+        "axis=z":   { "model": "mentalblocks:block/slade_column", "x": 90 },
+        "axis=x":   { "model": "mentalblocks:block/slade_column", "x": 90, "y": 90 }
+    }
+}

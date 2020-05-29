@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":   { "model": "mentalblocks:block/cucumber_block" },
+        "axis=z":   { "model": "mentalblocks:block/cucumber_block", "x": 90 },
+        "axis=x":   { "model": "mentalblocks:block/cucumber_block", "x": 90, "y": 90 }
+    }
+}
